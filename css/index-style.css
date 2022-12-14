@@ -1,0 +1,79 @@
+:root{
+    --main-color: #0078ff;
+    --head-color: #1e1e1e;
+    --pargraph-color:#4e4e4e;  
+}
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    
+}
+.bookmarks{
+  background-color: black;
+  color: rgb(200, 9, 9);
+}
+.header{
+    border: 2px solid black;
+    position: relative;
+    width: 25%; 
+}
+/* .header h1{
+    color: rgb(191, 4, 4);
+    
+} */
+.img-header{
+    position: absolute;
+    top: -9px;
+    left: -18px;
+}
+#submitInput{
+    background-color:rgb(200, 9, 9) ;
+}
+.card{
+    position: relative;
+}
+.img-card{
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+.content h2{
+    color:rgb(200, 9, 9) ;
+}
+.content button{
+    background-color: transparent;
+    border: 1px solid rgb(200, 9, 9) ;
+    padding: 8px 18px;
+    color:rgb(200, 9, 9) ;
+    font-weight: 500;
+}
+.content button:hover{
+    background-color: whitesmoke;
+    
+}
+
+/* .page{
+    background-image: url(../img/4.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+} */
+a{
+    text-decoration: none;
+    color: rgb(200, 9, 9);
+}
